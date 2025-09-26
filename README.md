@@ -1,4 +1,16 @@
-<<<<<<< HEAD
+# E-commerce Legal Compliance Checker (sih_hack)
+
+This project is an application designed to **scan e-commerce documents (like invoices or product pages)**, extract text using **OCR**, and then check for compliance against a set of predefined legal requirements.
+
+## Project Structure and Technologies
+
+* **Frontend:** React (Bootstrapped with Create React App)
+* **State Management:** React Context API (`AppContext`)
+* **Key Libraries:** `jspdf`, `jspdf-autotable` (for PDF generation), `react-router-dom` (for navigation)
+* **Core Logic:** Includes modules for Image Preprocessing, OCR, and Compliance Analysis.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,6 +18,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+You must run this command **first** to download all necessary dependencies, including the installed modules like `jspdf` and `react-router-dom`.
 
 ### `npm start`
 
@@ -69,6 +85,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# sih_hack
->>>>>>> 44e37607d75871dc936b7605294351f7c0552aa7
