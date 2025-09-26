@@ -1,0 +1,11 @@
+/* src/pages/PipelinePage.module.css */
+/* Inherits most styles from App.css, no specific overrides needed yet */
+/* For Pipeline steps, use global .pipeline-step, .pipeline-step.completed, .pipeline-step.failed */
+/* For status badge, use global .status-badge, .status-compliant, .status-non-compliant, .status-needs-attention */
+
+/* Add a custom style for "running" status for demonstration */
+.status-info {
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}

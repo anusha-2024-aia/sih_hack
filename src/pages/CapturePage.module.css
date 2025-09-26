@@ -1,0 +1,20 @@
+/* src/pages/CapturePage.module.css */
+.uploadArea {
+    border: 2px dashed var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 3rem;
+    text-align: center;
+    background: var(--background-color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.uploadArea:hover {
+    border-color: var(--primary-color);
+    background: rgba(37, 99, 235, 0.05);
+}
+
+.uploadArea.dragover {
+    border-color: var(--primary-color);
+    background: rgba(37, 99, 235, 0.1);
+}
